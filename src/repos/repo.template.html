@@ -1,14 +1,12 @@
-<!-- <ul>
-    <li ng-repeat='repo in reposCtrl.list'>
-        <section class='gh-repo'>{{repo.name}}</section>
-    </li>
-</ul> -->
-
 <section class='panel panel-default'>
     <header class='panel-heading'>
         <h2 class='panel-title'>{{repo.name}}</h2>
     </header>
     <aside class='panel-body'>
         <p>Size: {{repo.size}}</p>
+        <p>Stargazers count: {{repo.stargazers_count}}</p>
+        <p>Watchers count: {{repo.watchers_count}}</p>
+        <p>Owner id: {{repo.owner.id}}</p>
+        <p>Owner url: {{repo.owner.url}}</p>
     </aside>
 </section>
