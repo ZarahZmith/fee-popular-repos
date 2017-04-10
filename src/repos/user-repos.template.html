@@ -7,17 +7,7 @@
 </form>
 
 <section class='gh-repos'>
-    <!-- use directive here -->
 
-    <repo></repo>
-
-
-    <!-- <ul>
-        <li ng-repeat='repo in reposCtrl.list'>
-            <section class='gh-repo'>{{repo.name}}</section>
-        </li>
-    </ul> -->
-
-
+    <repo ng-repeat='repo in reposCtrl.list' repo='repo'></repo>
 
 </section>
