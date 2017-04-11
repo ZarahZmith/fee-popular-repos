@@ -7,10 +7,11 @@
     function popularity() {
         let $ = angular.element;
 
-        return function sortPopularity(repo) {
+        return function arrangePopularity(repo) {
             if (!Array.isArray(repo)) {
                 return repo;
             }
+
         };
     }
 }());
