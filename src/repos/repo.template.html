@@ -3,7 +3,7 @@
         <h2 class='panel-title'>{{repo.name}}</h2>
     </header>
     <aside class='panel-body'>
-        <p>Size: {{repo.size}}</p>
+        <p>Size: {{repo.size | projectSize}}</p>
         <p>Stargazers count: {{repo.stargazers_count}}</p>
         <p>Number of forks: {{repo.forks_count}}</p>
         <p>Number of open issues: {{repo.open_issues_count}}</p>
